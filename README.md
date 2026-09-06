@@ -1,4 +1,8 @@
-# xdg-desktop-portal-umbriel
+# fork of xdg-desktop-portal-umbriel
+Snapshot from noctalia-dev.
+
+Personal packaging.
+
 
 An [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-portal) backend for the [Umbriel](https://github.com/noctalia-dev/umbriel) compositor.
 
@@ -12,6 +16,21 @@ An [xdg-desktop-portal](https://github.com/flatpak/xdg-desktop-portal) backend f
 Requires Meson >= 1.3 and a C++23 compiler.
 
 ### Dependencies
+
+```
+sdbus-c++
+libpipewire
+wayland-client
+wayland-protocols
+libdrm
+gbm
+cairo
+tomlplusplus
+gtk4
+meson
+just
+```
+
 
 - sdbus-c++ >= 2.0
 - libpipewire-0.3
